@@ -10,7 +10,10 @@ function proximoEnLaFila(arreglo, elemento) {
     return arreglo.shift();
 }
 
-let cola = [1, 2, 3, 4, 5];
-console.log("Elemento removido:", proximoEnLaFila(cola, 6));
-console.log("Estado actual de la cola:", cola);
+console.log(" A     | B     | A && B ");
+console.log("-------------------------");
+console.log(" false | false |", false && false);
+console.log(" false | true  |", false && true);
+console.log(" true  | false |", true && false);
+console.log(" true  | true  |", true && true);
 
